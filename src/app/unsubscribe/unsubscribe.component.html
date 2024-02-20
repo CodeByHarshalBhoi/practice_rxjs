@@ -1,0 +1,30 @@
+<h2>Unsubscribe the observable</h2>
+<div>
+  <div>
+    <h2>Subscriber 1</h2>
+    <hr>
+    <div *ngFor="let x of data1">
+        {{x}}
+    </div>
+    <button (click)="Observable1()">Subscribe</button>
+    <button (click)="unsubscribe1()">Un-Subscribe</button>
+  </div>
+  <div>
+    <h2>Subscriber 2</h2>
+    <hr>
+    <div *ngFor="let x of data2">
+        {{x}}
+    </div>
+    <button (click)="Observable2()">Subscribe</button>
+    <button (click)="unsubscribe2()">Un-Subscribe</button>
+  </div>
+  <div>
+    <h2>Subscriber 3</h2>
+    <hr>
+    <div *ngFor="let x of data3">
+        {{x}}
+    </div>
+    <button (click)="Observable3()">Subscribe</button>
+    <button (click)="unsubscribe3()">Un-Subscribe</button>
+  </div>
+</div>
